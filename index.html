@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./lib/swiper-bundle.min.js" defer></script>
+    <script src="./js/slider.js" defer></script>
+    <link rel="stylesheet" href="./lib/swiper-bundle.min.css">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul onclick="toggleMenu()">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Gallery</a></li>
+                    <li><a href="#team">About</a></li>
+                </ul>
+            </nav>
+            <div class="burger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <main id="home">
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide slide">
+                        <div class="planet" data-text="EARTH">
+                            <!-- <h1>EARTH</h1> -->
+                            <img src="./img/earth.png" alt="">
+                            <!-- <h1>EARTH</h1> -->
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="planet" data-text="MARS">
+                            <!-- <h1>MARS</h1> -->
+                            <img src="./img/mars.png" alt="">
+                            <!-- <h1>MARS</h1> -->
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="planet" data-text="MOON">
+                            <!-- <h1>MOON</h1> -->
+                            <img src="./img/moon.png" alt="">
+                            <!-- <h1>MOON</h1> -->
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="desc">
+                <span>This is a place for all space lovers where everyone will find a hundred things for themselves</span>
+                <button class="primary">Start Now</button>
+            </div>
+            
+        </div>
+    </main>
+    <section id="rewards">
+        <div class="container">
+            <div class="reward">
+                <h2>80</h2>
+                <span>Satisfied clients</span>
+            </div>
+            
+            <div class="reward">
+                <h2>200</h2>
+                <span>Posts completed</span>
+            </div>
+            
+            <div class="reward">
+                <h2>99</h2>
+                <span>Reviews given</span>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <div class="right">
+                <h2>Our Team</h2>
+                <div class="desc">
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Maecenas iaculis ac justo vitae ornare Lorem ipsum dolor sit amet consectetur adipiscing elit Maecenas iaculis ac justo vitae ornare Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                </div>
+                <img src="./img/workteam.jpg" alt="">
+            </div>
+            <div class="left">
+                <img src="./img/mars.png" alt="">
+                <!-- <img src="./img/asteroids.png" alt=""> -->
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="desc">
+                <h2>My Creative Works <br>
+                    Latest<span class="blueWord"> Projects</span>
+                </h2>
+                <p>I have selected and mentioned here some of my latest projects to share with you</p>
+                <button class="secondary">Show More</button>
+            </div>
+            <div class="slider">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide slide">
+                            <div class="photo">
+                                
+                                <img src="./img/galaxy.jpg" alt="">
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-slide slide">
+                            <div class="photo">
+                                
+                                <img src="./img/astronauth.jpg" alt="">
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-slide slide">
+                            <div class="photo">
+                                
+                                <img src="./img/orbita.jpg" alt="">
+                                
+                            </div>
+                            
+                        </div>
+                        <div class="swiper-slide slide">
+                            <div class="photo">
+                                
+                                <img src="./img/manyPlanets.jpg" alt="">
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="Reviews">
+        <h2>Reviews</h2>
+        <div class="back">
+            <img src="./img/rockOff.png" alt="">
+        </div>
+        <div class="sliderr">
+            <div class="swiperTwo">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide slide">
+                        <div class="review">
+                            
+                            <img src="./img/nerdman.jpg" alt="">
+                            <div class="desc">
+                                <span>
+                                    May 8, 2020
+                                </span>
+                                <h4>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="review">
+                            
+                            <img src="./img/blackman.jpg" alt="">
+                            <div class="desc">
+                                <span>
+                                    May 8, 2020
+                                </span>
+                                <h4>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="review">
+                            
+                            <img src="./img/nerdman.jpg" alt="">
+                            <div class="desc">
+                                <span>
+                                    May 8, 2020
+                                </span>
+                                <h4>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-slide slide">
+                        <div class="review">
+                            
+                            <img src="./img/blackman.jpg" alt="">
+                            <div class="desc">
+                                <span>
+                                    May 8, 2020
+                                </span>
+                                <h4>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.
+                                </p>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+        </div>
+        </div>
+        <div class="front">
+            <img src="./img/rockOn.png" alt="">
+        </div>
+        
+    </section>
+    <footer>
+        <div class="container">
+            <div class="top">
+                <div class="decs">
+                    <span>Discovery</span>
+                    <span>Planets</span>
+                    <span>About</span>
+                </div>
+                <div class="icons">
+                    <div class="icon">
+                        <img src="./img/facebook.svg" alt="">
+                    </div>
+                    <div class="icon">
+                        <img src="./img/twitter.svg" alt="">
+                    </div>
+                    <div class="icon">
+                        <img src="./img/instagram.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <span>© 2022 Prime Space Travel</span>
+                <span>Privacy policy</span>
+                <span>Term of service</span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function toggleMenu(){
+            document.querySelector('header nav ul').classList.toggle('show');
+            document.querySelector('.burger').classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
