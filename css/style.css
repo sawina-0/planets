@@ -219,10 +219,14 @@ main .swiper-pagination {
     height: 11.3px !important;
     margin: 26.37px 0 !important;
 }
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-acteiv{
     background-color: var(--secondary_colorMilk) !important;
 }
 /*2206*/
+
+
+
+
 
 .slide {
     overflow: hidden;
